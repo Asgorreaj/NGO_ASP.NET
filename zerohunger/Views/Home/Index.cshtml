@@ -1,0 +1,84 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<!-- Including Bootstrap for responsive grid layout -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+    .section-header {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .custom-button {
+        width: 75%; /* Set a fixed width */
+        padding: 10px;
+        margin: 10px auto; /* Center buttons */
+        font-size: 16px;
+        border-radius: 5px;
+        display: block; /* Make buttons block level */
+    }
+
+        /* Adding a hover effect to buttons for better interactivity */
+        .custom-button:hover, .btn-primary:hover {
+            opacity: 0.9;
+        }
+
+    /* Additional styling for overall alignment and padding */
+    .container {
+        padding: 20px;
+    }
+
+    .col-md-4 {
+        margin-bottom: 20px; /* Adds space between sections */
+        background-size: cover; /* Adjust background size for better appearance */
+        color: #fff; /* Set text color to white for better visibility */
+        padding: 20px; /* Add padding to the sections for better spacing */
+    }
+</style>
+
+<div class="image-container" style="text-align:center; margin-top:20px;">
+    <!-- Your Image -->
+    <img src="~/Content/ngo.png" alt="Zero Hunger Initiative" style="max-width:100%; height:10%;">
+</div>
+
+<section>
+    <div class="container mt-5">
+        <!-- Use justify-content-center to horizontally center the content -->
+        <div class="row text-center justify-content-center">
+            <!-- Employee Section -->
+            <div class="col-md-4">
+                <h2 class="section-header">Employees</h2>
+                <p>Become a part of our journey.</p>
+                <div class="col shadow-lg mx-auto my-2">
+                    <img src="../../Content/employee2.png" class="img-fluid img" />
+                </div>
+                <!-- Use mx-auto to center the links -->
+                
+                @Html.ActionLink("Sign Up As Employee", "EmployeeRegistration", "Registration", new { area = "" }, new { @class = "btn btn-lg btn-primary w-75 /n" })
+                
+                @Html.ActionLink("Sign In As Employee", "EmployeeLogin", "Login", new { area = "" }, new { @class = "btn btn-lg btn-primary w-75" })
+            </div>
+
+            <!-- Restaurant Section -->
+            <div class="col-md-4">
+                <h2 class="section-header">Restaurants</h2>
+                <p>Partner with us to make a difference.</p>
+                <div class="col shadow-lg mx-10 my-2">
+                    <img src="../../Content/zerohunger2.png" class="img-fluid img" />
+                </div>
+                <!-- Use mx-auto to center the links -->
+               
+
+                @Html.ActionLink("Sign Up As Restaurant", "RestaurantRegistration", "Registration", new { area = "" }, new { @class = "btn btn-lg btn-primary w-75" })
+
+                @Html.ActionLink("Sign In As Restaurant", "RestaurantLogin", "Login", new { area = "" }, new { @class = "btn btn-lg btn-primary w-75" })
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
