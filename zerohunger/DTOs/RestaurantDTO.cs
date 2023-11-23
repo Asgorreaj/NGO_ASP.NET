@@ -5,28 +5,20 @@ using System.Linq;
 using System.Web;
 using zerohunger.EF;
 
-namespace ZeroHunger.DTOs
+namespace zerohunger.DTOs
 {
     public class RestaurantDTO
     {
-        public int Id { get; set; }
-
-        [Required]
-        [Display]
-        public string Name { get; set; }
-
-        [Required]
-        public string Address { get; set; }
-
+        public int id { get; set; }
+        public string name { get; set; }
+        public string address { get; set; }
         [Required]
         [Display(Name = "Email Address")]
-        public string EmailAddress { get; set; }
-
+        public string email_address { get; set; }
         [Required]
         [Display(Name = "Contact Number")]
-        public string ContactNumber { get; set; }
-
-        [Required]
-        public string Password { get; set; }
+        public string contact_number { get; set; }
+        public string password { get; set; }
     }
 }
+

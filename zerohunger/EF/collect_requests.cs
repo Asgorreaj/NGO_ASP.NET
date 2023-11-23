@@ -22,11 +22,11 @@ namespace zerohunger.EF
     
         public int id { get; set; }
         public int restaurant_id { get; set; }
-        public int employee_id { get; set; }
+        public Nullable<int> employee_id { get; set; }
         public System.DateTime time { get; set; }
         public System.DateTime maximum_preserve_time { get; set; }
         public string status { get; set; }
-        public System.DateTime completion_time { get; set; }
+        public Nullable<System.DateTime> completion_time { get; set; }
     
         public virtual employee employee { get; set; }
         public virtual restaurant restaurant { get; set; }

@@ -20,7 +20,7 @@ namespace zerohunger.EF
         public int quantity { get; set; }
         public string condition { get; set; }
         public string distribution_status { get; set; }
-        public System.DateTime distribution_completion_time { get; set; }
+        public Nullable<System.DateTime> distribution_completion_time { get; set; }
     
         public virtual collect_requests collect_requests { get; set; }
     }

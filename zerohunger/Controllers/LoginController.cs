@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using ZeroHunger.DTOs;
+using zerohunger.DTOs;
 using zerohunger.EF;
 using AutoMapper;
 
@@ -26,7 +26,7 @@ namespace ZeroHunger.Controllers
             });
             var mapper = new Mapper(mapperConfiguration);
             var data = mapper.Map<restaurant>(restaurantDTO);
-            var database = new ZeroHungerEntities();
+            var database = new ZeroEntities();
             var restaurantData = database.restaurants.FirstOrDefault(r => r.email_address == data.email_address);
             if (restaurantData != null)
             {
@@ -53,7 +53,7 @@ namespace ZeroHunger.Controllers
             });
             var mapper = new Mapper(mapperConfiguration);
             var data = mapper.Map<employee>(employeeDTO);
-            var database = new ZeroHungerEntities();
+            var database = new ZeroEntities();
             var employeeData = database.employees.FirstOrDefault(r => r.email_address == data.email_address);
             if (employeeData != null)
             {
@@ -74,7 +74,7 @@ namespace ZeroHunger.Controllers
         [HttpPost]
         public ActionResult NGOLogin(RestaurantDTO restaurantDTO)
         {
-            if (restaurantDTO.EmailAddress == "asgorreaj@gmail.com" && restaurantDTO.Password == "123456")
+            if (restaurantDTO.email_address == "asgorreaj@gmail.com" && restaurantDTO.password == "NNgg22##")
             {
                 Session["NGOID"] = 1;
                 return RedirectToAction("Index", "NGODashboard");

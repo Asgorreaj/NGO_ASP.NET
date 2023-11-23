@@ -4,19 +4,19 @@ using System.Linq;
 using System.Web;
 using zerohunger.EF;
 using System.ComponentModel.DataAnnotations.Schema;
+using ZeroHunger.Controllers;
 
-
-namespace ZeroHunger.DTOs
+namespace zerohunger.DTOs
 {
     public class CollectedFoodItemDTO
     {
-        public int Id { get; set; }
-        public int CollectRequestId { get; set; }
-        public string Name { get; set; }
-        public int Quantity { get; set; }
-        public string Condition { get; set; }
-        public string DistributionStatus { get; set; }
-        public System.DateTime? DistributionCompletionTime { get; set; }
+        public int id { get; set; }
+        public int collect_request_id { get; set; }
+        public string name { get; set; }
+        public int quantity { get; set; }
+        public string condition { get; set; }
+        public string distribution_status { get; set; }
+        public Nullable<System.DateTime> distribution_completion_time { get; set; }
         public int MaximumPreserveTimeInHours { get; set; }
     }
 }

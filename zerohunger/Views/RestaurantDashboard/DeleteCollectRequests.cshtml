@@ -1,0 +1,73 @@
+﻿@model zerohunger.EF.collect_requests
+
+@{
+    ViewBag.Title = "DeleteCollectRequests";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h2>Delete Collect Requests</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>collect_requests</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.restaurant_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.restaurant_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.employee_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.employee_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.time)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.maximum_preserve_time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.maximum_preserve_time)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.completion_time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.completion_time)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -4,15 +4,15 @@ using System.Linq;
 using System.Web;
 using zerohunger.EF;
 
-namespace ZeroHunger.DTOs
+namespace zerohunger.DTOs
 {
     public class EmployeeDTO
     {
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string EmailAddress { get; set; }
-        public string ContactNumber { get; set; }
-        public string Password { get; set; }
+        public int id { get; set; }
+        public string first_name { get; set; }
+        public string last_name { get; set; }
+        public string email_address { get; set; }
+        public string contact_number { get; set; }
+        public string password { get; set; }
     }
 }

@@ -4,50 +4,53 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using zerohunger.EF;
+using zerohunger.DTOs;
 
 namespace ZeroHunger.Controllers
 {
     public class NGODashboardController : Controller
     {
-        // GET: NGODashboard
+      
         public ActionResult Index()
         {
-            var database = new ZeroHungerEntities();
+            var database = new ZeroEntities();
             var data = database.restaurants.ToList();
             return View(data);
         }
 
         public ActionResult RestaurantList()
         {
-            var database = new ZeroHungerEntities();
+            var database = new ZeroEntities();
             var data = database.restaurants.ToList();
             return View(data);
         }
 
         public ActionResult EmployeeList()
         {
-            var database = new ZeroHungerEntities();
+            var database = new ZeroEntities();
             var data = database.employees.ToList();
             return View(data);
         }
 
         public ActionResult CollectRequestList()
         {
-            var database = new ZeroHungerEntities();
+            var database = new ZeroEntities();
             var data = database.collect_requests.ToList();
             return View(data);
         }
 
         public ActionResult CollectedFoodItemsList()
         {
-            var database = new ZeroHungerEntities();
+            var database = new ZeroEntities();
             var data = database.collected_food_items.ToList();
             return View(data);
         }
 
+        
+
         public ActionResult DistributeFood(int id)
         {
-            var database = new ZeroHungerEntities();
+            var database = new ZeroEntities();
             var data = database.collected_food_items.Find(id);
             data.distribution_status = "Distributed";
             data.distribution_completion_time = DateTime.Now;
@@ -57,7 +60,7 @@ namespace ZeroHunger.Controllers
 
         public ActionResult AssignEmployee(int id)
         {
-            var database = new ZeroHungerEntities();
+            var database = new ZeroEntities();
             var data = database.collect_requests.Find(id);
             var employees = database.employees.ToList();
             ViewBag.EmployeeList = employees;
@@ -67,7 +70,7 @@ namespace ZeroHunger.Controllers
         [HttpPost]
         public ActionResult AssignEmployee(collect_requests c)
         {
-            var database = new ZeroHungerEntities();
+            var database = new ZeroEntities();
             var data = database.collect_requests.Find(c.id);
             data.employee_id = c.employee_id;
             data.status = "Assigned";

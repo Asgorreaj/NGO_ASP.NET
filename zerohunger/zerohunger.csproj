@@ -237,31 +237,31 @@
     <Compile Include="DTOs\EmployeeDTO.cs" />
     <Compile Include="DTOs\RestaurantDTO.cs" />
     <Compile Include="EF\collected_food_items.cs">
-      <DependentUpon>ZeroHunger.tt</DependentUpon>
+      <DependentUpon>zerohunger.tt</DependentUpon>
     </Compile>
     <Compile Include="EF\collect_requests.cs">
-      <DependentUpon>ZeroHunger.tt</DependentUpon>
+      <DependentUpon>zerohunger.tt</DependentUpon>
     </Compile>
     <Compile Include="EF\employee.cs">
-      <DependentUpon>ZeroHunger.tt</DependentUpon>
+      <DependentUpon>zerohunger.tt</DependentUpon>
     </Compile>
     <Compile Include="EF\restaurant.cs">
-      <DependentUpon>ZeroHunger.tt</DependentUpon>
+      <DependentUpon>zerohunger.tt</DependentUpon>
     </Compile>
-    <Compile Include="EF\ZeroHunger.Context.cs">
+    <Compile Include="EF\zerohunger.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ZeroHunger.Context.tt</DependentUpon>
+      <DependentUpon>zerohunger.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="EF\ZeroHunger.cs">
+    <Compile Include="EF\zerohunger.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ZeroHunger.tt</DependentUpon>
+      <DependentUpon>zerohunger.tt</DependentUpon>
     </Compile>
-    <Compile Include="EF\ZeroHunger.Designer.cs">
+    <Compile Include="EF\zerohunger.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ZeroHunger.edmx</DependentUpon>
+      <DependentUpon>zerohunger.edmx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -285,15 +285,15 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
-    <Content Include="EF\ZeroHunger.Context.tt">
+    <Content Include="EF\zerohunger.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ZeroHunger.edmx</DependentUpon>
-      <LastGenOutput>ZeroHunger.Context.cs</LastGenOutput>
+      <DependentUpon>zerohunger.edmx</DependentUpon>
+      <LastGenOutput>zerohunger.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="EF\ZeroHunger.tt">
+    <Content Include="EF\zerohunger.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ZeroHunger.edmx</DependentUpon>
-      <LastGenOutput>ZeroHunger.cs</LastGenOutput>
+      <DependentUpon>zerohunger.edmx</DependentUpon>
+      <LastGenOutput>zerohunger.cs</LastGenOutput>
     </Content>
     <Content Include="favicon.ico" />
     <Content Include="Content\Site.css" />
@@ -304,12 +304,12 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="EF\ZeroHunger.edmx">
+    <EntityDeploy Include="EF\zerohunger.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ZeroHunger.Designer.cs</LastGenOutput>
+      <LastGenOutput>zerohunger.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="EF\ZeroHunger.edmx.diagram">
-      <DependentUpon>ZeroHunger.edmx</DependentUpon>
+    <Content Include="EF\zerohunger.edmx.diagram">
+      <DependentUpon>zerohunger.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -357,6 +357,8 @@
     <Content Include="Views\Login\NGOLogin.cshtml" />
     <Content Include="Views\EmployeeDashboard\Index.cshtml" />
     <Content Include="Views\EmployeeDashboard\AssignedCollectRequests.cshtml" />
+    <Content Include="Views\RestaurantDashboard\DeleteCollectRequests.cshtml" />
+    <Content Include="Views\EmployeeDashboard\ConfirmRequest.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

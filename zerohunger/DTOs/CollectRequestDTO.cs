@@ -4,17 +4,19 @@ using System.Linq;
 using System.Web;
 using zerohunger.EF;
 
-namespace ZeroHunger.DTOs
+namespace zerohunger.DTOs
 {
     public class CollectRequestDTO
     {
-        public int Id { get; set; }
-        public int RestaurantId { get; set; }
-        public int? EmployeeId { get; set; }
-        public System.DateTime Time { get; set; }
-        public DateTime MaximumPreserveTime { get; set; }
-        public string Status { get; set; }
-        public DateTime? CompletionTime { get; set; }
+
+        public int id { get; set; }
+        public int restaurant_id { get; set; }
+        public Nullable<int> employee_id { get; set; }
+        public System.DateTime time { get; set; }
+        public System.DateTime maximum_preserve_time { get; set; }
+        public string status { get; set; }
+        public Nullable<System.DateTime> completion_time { get; set; }
+
 
 
     }

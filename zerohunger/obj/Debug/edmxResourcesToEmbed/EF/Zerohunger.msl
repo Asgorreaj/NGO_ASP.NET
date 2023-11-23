@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="ZeroHungerModelStoreContainer" CdmEntityContainer="ZeroHungerEntities">
+  <EntityContainerMapping StorageEntityContainer="ZeroModelStoreContainer" CdmEntityContainer="ZeroEntities">
     <EntitySetMapping Name="collect_requests">
-      <EntityTypeMapping TypeName="ZeroHungerModel.collect_requests">
+      <EntityTypeMapping TypeName="ZeroModel.collect_requests">
         <MappingFragment StoreEntitySet="collect_requests">
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="restaurant_id" ColumnName="restaurant_id" />
@@ -15,7 +15,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="collected_food_items">
-      <EntityTypeMapping TypeName="ZeroHungerModel.collected_food_items">
+      <EntityTypeMapping TypeName="ZeroModel.collected_food_items">
         <MappingFragment StoreEntitySet="collected_food_items">
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="collect_request_id" ColumnName="collect_request_id" />
@@ -28,7 +28,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="employees">
-      <EntityTypeMapping TypeName="ZeroHungerModel.employee">
+      <EntityTypeMapping TypeName="ZeroModel.employee">
         <MappingFragment StoreEntitySet="employees">
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="first_name" ColumnName="first_name" />
@@ -40,8 +40,8 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="restaurants">
-      <EntityTypeMapping TypeName="ZeroHungerModel.restaurant">
-        <MappingFragment StoreEntitySet="restaurants">
+      <EntityTypeMapping TypeName="ZeroModel.restaurant">
+        <MappingFragment StoreEntitySet="restaurant">
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="address" ColumnName="address" />

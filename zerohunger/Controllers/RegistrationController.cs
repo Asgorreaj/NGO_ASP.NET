@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using ZeroHunger.Controllers;
-using ZeroHunger.DTOs;
+using zerohunger.DTOs;
 using zerohunger.EF;
 using AutoMapper;
 
@@ -12,7 +12,7 @@ namespace ZeroHunger.Controllers
 {
     public class RegistrationController : Controller
     {
-        // GET: Registration/RestaurantRegistration
+        
         public ActionResult RestaurantRegistration()
         {
             return View();
@@ -29,7 +29,7 @@ namespace ZeroHunger.Controllers
                 });
                 var mapper = new Mapper(mapperConfiguration);
                 var data = mapper.Map<restaurant>(restaurantDTO);
-                var database = new ZeroHungerEntities();
+                var database = new ZeroEntities();
                 database.restaurants.Add(data);
                 database.SaveChanges();
                 Session["restaurantID"] = data.id;
@@ -54,7 +54,7 @@ namespace ZeroHunger.Controllers
                 });
                 var mapper = new Mapper(mapperConfiguration);
                 var data = mapper.Map<employee>(employeeDTO);
-                var database = new ZeroHungerEntities();
+                var database = new ZeroEntities();
                 database.employees.Add(data);
                 database.SaveChanges();
                 Session["employeeID"] = data.id;

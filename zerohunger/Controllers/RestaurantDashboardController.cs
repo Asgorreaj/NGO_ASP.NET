@@ -7,7 +7,9 @@ using System.Web;
 using System.Web.Mvc;
 using zerohunger.EF;
 using ZeroHunger.Controllers;
-using ZeroHunger.DTOs;
+using zerohunger.DTOs;
+using System.Data.SqlTypes;
+using System.Diagnostics;
 
 
 
@@ -15,12 +17,12 @@ namespace ZeroHunger.Controllers
 {
     public class RestaurantDashboardController : Controller
     {
-        // GET: RestaurantDashboard
+       
         public ActionResult Index()
         {
             return View();
         }
-
+        [HttpGet]
         public ActionResult CreateCollectRequest()
         {
             return View();
@@ -29,12 +31,14 @@ namespace ZeroHunger.Controllers
         [HttpPost]
         public ActionResult CreateCollectRequest(CollectedFoodItemDTO collectedFoodItemDTO)
         {
+            var database = new ZeroEntities();
+
             var collectRequestDTO = new CollectRequestDTO()
             {
-                RestaurantId = (int)Session["restaurantID"],
-                Time = DateTime.Now,
-                MaximumPreserveTime = DateTime.Now.AddHours(collectedFoodItemDTO.MaximumPreserveTimeInHours),
-                Status = "Unassigned"
+                restaurant_id = (int)Session["restaurantID"],
+                time = DateTime.Now,
+                maximum_preserve_time = DateTime.Now,
+                status = "Unassigned"
             };
 
             var collectRequestMapperConfiguration = new MapperConfiguration(configure =>
@@ -43,12 +47,11 @@ namespace ZeroHunger.Controllers
             });
             var collectRequestMapper = new Mapper(collectRequestMapperConfiguration);
             var collectRequestData = collectRequestMapper.Map<collect_requests>(collectRequestDTO);
-            var database = new ZeroHungerEntities();
             database.collect_requests.Add(collectRequestData);
             database.SaveChanges();
-            collectedFoodItemDTO.CollectRequestId = collectRequestData.id;
-            collectedFoodItemDTO.Condition = "Good";
-            collectedFoodItemDTO.DistributionStatus = "Undistributed";
+            collectedFoodItemDTO.collect_request_id = collectRequestData.id;
+            collectedFoodItemDTO.condition = "Good";
+            collectedFoodItemDTO.distribution_status = "Undistributed";
             var collectedFoodItemsMapperConfiguration = new MapperConfiguration(configure =>
             {
                 configure.CreateMap<CollectedFoodItemDTO, collected_food_items>();
@@ -62,7 +65,7 @@ namespace ZeroHunger.Controllers
 
         public ActionResult CollectRequestList()
         {
-            var database = new ZeroHungerEntities();
+            var database = new ZeroEntities();
             int restaurantID = (int)Session["restaurantID"];
             var data = database.collect_requests.Where(c => c.restaurant_id == restaurantID);
             return View(data);
@@ -70,7 +73,7 @@ namespace ZeroHunger.Controllers
 
         public ActionResult CollectedFoodItemsList()
         {
-            var database = new ZeroHungerEntities();
+            var database = new ZeroEntities();
             int restaurantID = (int)Session["restaurantID"];
             var data = database.collected_food_items.Where(c => c.collect_requests.id == restaurantID);
             return View(data);
@@ -78,7 +81,7 @@ namespace ZeroHunger.Controllers
 
         public ActionResult DeleteCollectRequests(int id)
         {
-            var database = new ZeroHungerEntities();
+            var database = new ZeroEntities();
             var collectRequestsData = database.collect_requests.Find(id);
             var collectedFoodItemsData = database.collected_food_items.FirstOrDefault(c => c.collect_request_id == collectRequestsData.id);
             database.collect_requests.Remove(collectRequestsData);
@@ -89,7 +92,7 @@ namespace ZeroHunger.Controllers
 
         public ActionResult DeleteCollectedFoodItemsList(int id)
         {
-            var database = new ZeroHungerEntities();
+            var database = new ZeroEntities();
             var collectedFoodItemsData = database.collected_food_items.Find(id);
             var collectRequestsData = database.collect_requests.Find(collectedFoodItemsData.collect_request_id);
             database.collect_requests.Remove(collectRequestsData);

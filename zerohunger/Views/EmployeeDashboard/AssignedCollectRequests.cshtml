@@ -1,5 +1,4 @@
-﻿
-@model IEnumerable<zerohunger.EF.collect_requests>
+﻿@model IEnumerable<zerohunger.EF.collect_requests>
 
 @{
     ViewBag.Title = "AssignedCollectRequests";
@@ -13,66 +12,45 @@
 </p>
 <table class="table">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.restaurant_id)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.employee_id)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.time)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.maximum_preserve_time)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.status)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.completion_time)
-        </th>
+        <th>@Html.DisplayNameFor(model => model.FirstOrDefault().restaurant_id)</th>
+        <th>@Html.DisplayNameFor(model => model.FirstOrDefault().employee_id)</th>
+        <th>@Html.DisplayNameFor(model => model.FirstOrDefault().time)</th>
+        <th>@Html.DisplayNameFor(model => model.FirstOrDefault().maximum_preserve_time)</th>
+        <th>@Html.DisplayNameFor(model => model.FirstOrDefault().status)</th>
+        <th>@Html.DisplayNameFor(model => model.FirstOrDefault().completion_time)</th>
         <th></th>
     </tr>
 
-    @foreach (var item in Model)
+    @if (Model == null || !Model.Any())
     {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.restaurant_id)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.employee_id)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.time)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.maximum_preserve_time)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.completion_time)
-            </td>
-            @if (item.status == "Assigned")
-            {
-                <td>
-                    @Html.ActionLink("Confirm Request", "ConfirmRequest", new { id = item.id })
-                </td>
-            }
-            else if (item.status == "In Progress")
-            {
-                <td>
-                    @Html.ActionLink("Complete Request", "CompleteRequest", new { id = item.id })
-                </td>
-            }
-            else
-            {
-                <td>
-                    Completed
-                </td>
-            }
+            <td colspan="7">No requests assigned.</td>
         </tr>
+    }
+    else
+    {
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.restaurant_id)</td>
+                <td>@Html.DisplayFor(modelItem => item.employee_id)</td>
+                <td>@Html.DisplayFor(modelItem => item.time)</td>
+                <td>@Html.DisplayFor(modelItem => item.maximum_preserve_time)</td>
+                <td>@Html.DisplayFor(modelItem => item.status)</td>
+                <td>@Html.DisplayFor(modelItem => item.completion_time)</td>
+                @if (item.status == "Assigned")
+                {
+                    <td>@Html.ActionLink("Confirm Request", "ConfirmRequest", new { id = item.id })</td>
+                }
+                else if (item.status == "In Progress")
+                {
+                    <td>@Html.ActionLink("Complete Request", "CompleteRequest", new { id = item.id })</td>
+                }
+                else
+                {
+                    <td>Completed</td>
+                }
+            </tr>
+        }
     }
 </table>
