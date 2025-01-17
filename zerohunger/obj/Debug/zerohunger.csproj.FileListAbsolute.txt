@@ -308,3 +308,315 @@ E:\11 semester\.Net\zerohunger\zerohunger\obj\Debug\zerohunger.csproj.CoreCompil
 E:\11 semester\.Net\zerohunger\zerohunger\obj\Debug\zerohunger.csproj.CopyComplete
 E:\11 semester\.Net\zerohunger\zerohunger\obj\Debug\zerohunger.dll
 E:\11 semester\.Net\zerohunger\zerohunger\obj\Debug\zerohunger.pdb
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\zerohunger.dll.config
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\zerohunger.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\zerohunger.pdb
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\csc.exe
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\csc.exe.config
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\csc.rsp
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\csi.exe
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\csi.exe.config
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\csi.rsp
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\Microsoft.Managed.Core.targets
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.AppContext.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Collections.Immutable.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Console.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Globalization.Calendars.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.IO.Compression.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.IO.FileSystem.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Net.Http.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Net.Sockets.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Reflection.Metadata.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.ValueTuple.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Xml.XmlDocument.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Xml.XPath.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\vbc.exe
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\vbc.exe.config
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\vbc.rsp
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\VBCSCompiler.exe
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\roslyn\VBCSCompiler.exe.config
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Antlr3.Runtime.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\AutoMapper.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Azure.Core.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Azure.Identity.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\EntityFramework.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\EntityFramework.SqlServer.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\GreenPipes.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.Bcl.AsyncInterfaces.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.Data.SqlClient.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.Data.Tools.Components.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.Identity.Client.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Logging.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Protocols.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Tokens.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.Web.Infrastructure.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Newtonsoft.Json.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Buffers.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Configuration.ConfigurationManager.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Diagnostics.DiagnosticSource.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Memory.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Numerics.Vectors.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Security.AccessControl.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Security.Cryptography.ProtectedData.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Security.Permissions.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Security.Principal.Windows.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Text.Encodings.Web.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Text.Json.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Threading.Tasks.Extensions.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.ValueTuple.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Web.Helpers.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Web.Mvc.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Web.Optimization.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Web.Razor.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Web.WebPages.Deployment.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Web.WebPages.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Web.WebPages.Razor.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\WebGrease.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.Data.Tools.Utilities.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.SqlServer.Types.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\AutoMapper.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Azure.Core.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Azure.Identity.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\EntityFramework.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\EntityFramework.SqlServer.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\GreenPipes.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.Bcl.AsyncInterfaces.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.Data.SqlClient.pdb
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.Data.SqlClient.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.Identity.Client.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Logging.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Protocols.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Tokens.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Buffers.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Configuration.ConfigurationManager.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Diagnostics.DiagnosticSource.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Memory.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Numerics.Vectors.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Security.AccessControl.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Security.Permissions.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Security.Principal.Windows.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Text.Encodings.Web.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Text.Json.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Threading.Tasks.Extensions.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.ValueTuple.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Web.Helpers.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Web.Mvc.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Web.Optimization.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Web.Razor.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Web.WebPages.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Web.WebPages.Deployment.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\System.Web.WebPages.Razor.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Newtonsoft.Json.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Antlr3.Runtime.pdb
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\de\Microsoft.Data.SqlClient.resources.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\es\Microsoft.Data.SqlClient.resources.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\fr\Microsoft.Data.SqlClient.resources.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\it\Microsoft.Data.SqlClient.resources.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\ja\Microsoft.Data.SqlClient.resources.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\ko\Microsoft.Data.SqlClient.resources.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\ru\Microsoft.Data.SqlClient.resources.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\obj\Debug\zerohunger.csproj.AssemblyReference.cache
+E:\11 semester\.Net\mid\zerohunger\zerohunger\obj\Debug\zerohunger.csproj.CoreCompileInputs.cache
+E:\11 semester\.Net\mid\zerohunger\zerohunger\obj\Debug\zerohunger.csproj.CopyComplete
+E:\11 semester\.Net\mid\zerohunger\zerohunger\obj\Debug\zerohunger.dll
+E:\11 semester\.Net\mid\zerohunger\zerohunger\obj\Debug\zerohunger.pdb
+D:\Asgor Live Project\zerohunger\zerohunger\bin\zerohunger.dll.config
+D:\Asgor Live Project\zerohunger\zerohunger\bin\zerohunger.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\zerohunger.pdb
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\csc.exe
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\csc.exe.config
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\csc.rsp
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\csi.exe
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\csi.exe.config
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\csi.rsp
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.AppContext.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Collections.Immutable.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Console.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Globalization.Calendars.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.IO.Compression.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.IO.FileSystem.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Net.Http.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Net.Sockets.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Reflection.Metadata.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.ValueTuple.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Xml.XPath.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\vbc.exe
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\vbc.exe.config
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\vbc.rsp
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\VBCSCompiler.exe
+D:\Asgor Live Project\zerohunger\zerohunger\bin\roslyn\VBCSCompiler.exe.config
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Antlr3.Runtime.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\AutoMapper.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Azure.Core.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Azure.Identity.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\EntityFramework.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\EntityFramework.SqlServer.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\GreenPipes.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.Data.SqlClient.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.Data.Tools.Components.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.Identity.Client.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Logging.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Protocols.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Tokens.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.Web.Infrastructure.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Newtonsoft.Json.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Buffers.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Configuration.ConfigurationManager.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Memory.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Numerics.Vectors.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Security.AccessControl.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Security.Cryptography.ProtectedData.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Security.Permissions.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Security.Principal.Windows.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Text.Encodings.Web.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Text.Json.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Threading.Tasks.Extensions.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.ValueTuple.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Web.Helpers.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Web.Mvc.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Web.Optimization.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Web.Razor.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Web.WebPages.Deployment.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Web.WebPages.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Web.WebPages.Razor.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\WebGrease.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.Data.Tools.Utilities.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.SqlServer.Types.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\AutoMapper.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Azure.Core.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Azure.Identity.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\EntityFramework.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\EntityFramework.SqlServer.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\GreenPipes.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.Data.SqlClient.pdb
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.Data.SqlClient.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.Identity.Client.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Logging.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Protocols.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.IdentityModel.Tokens.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Buffers.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Configuration.ConfigurationManager.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Memory.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Numerics.Vectors.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Security.AccessControl.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Security.Permissions.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Security.Principal.Windows.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Text.Encodings.Web.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Text.Json.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Threading.Tasks.Extensions.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.ValueTuple.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Web.Helpers.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Web.Mvc.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Web.Optimization.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Web.Razor.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Web.WebPages.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Web.WebPages.Deployment.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\System.Web.WebPages.Razor.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Newtonsoft.Json.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Antlr3.Runtime.pdb
+D:\Asgor Live Project\zerohunger\zerohunger\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Asgor Live Project\zerohunger\zerohunger\bin\de\Microsoft.Data.SqlClient.resources.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\es\Microsoft.Data.SqlClient.resources.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\it\Microsoft.Data.SqlClient.resources.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Asgor Live Project\zerohunger\zerohunger\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Asgor Live Project\zerohunger\zerohunger\obj\Debug\zerohunger.csproj.AssemblyReference.cache
+D:\Asgor Live Project\zerohunger\zerohunger\obj\Debug\zerohunger.csproj.CoreCompileInputs.cache
+D:\Asgor Live Project\zerohunger\zerohunger\obj\Debug\zerohunger.dll
+D:\Asgor Live Project\zerohunger\zerohunger\obj\Debug\zerohunger.pdb
+D:\Asgor Live Project\zerohunger\zerohunger\obj\Debug\zerohunger.csproj.Up2Date

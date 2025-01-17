@@ -1,8 +1,4 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
-<!-- Including Bootstrap for responsive grid layout -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+﻿<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <style>
     .section-header {
         font-size: 24px;
@@ -11,74 +7,142 @@
     }
 
     .custom-button {
-        width: 75%; /* Set a fixed width */
-        padding: 10px;
-        margin: 10px auto; /* Center buttons */
+        padding: 10px 20px;
         font-size: 16px;
         border-radius: 5px;
-        display: block; /* Make buttons block level */
+        display: block;
+        margin: 10px auto;
+        transition: transform 0.3s;
     }
 
-        /* Adding a hover effect to buttons for better interactivity */
-        .custom-button:hover, .btn-primary:hover {
-            opacity: 0.9;
+        .custom-button:hover {
+            transform: scale(1.05);
         }
 
-    /* Additional styling for overall alignment and padding */
+    .card {
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+    .carousel-item img {
+        max-height: 400px;
+        object-fit: cover;
+    }
+
     .container {
         padding: 20px;
     }
 
-    .col-md-4 {
-        margin-bottom: 20px; /* Adds space between sections */
-        background-size: cover; /* Adjust background size for better appearance */
-        color: #fff; /* Set text color to white for better visibility */
-        padding: 20px; /* Add padding to the sections for better spacing */
+    .modal-header, .modal-footer {
+        border: none;
     }
 </style>
+</head>
+<body>
+    <!-- Carousel Section -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/Content/carousel-item-1.png" class="d-block w-100" alt="Carousel Image 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Join the Movement</h5>
+                    <p>Make a difference with us.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="@Url.Content("~/Content/Untitled design.svg")" class="d-block min-vw-100 h-100" alt="Carousel Image 2">
 
-<div class="image-container" style="text-align:center; margin-top:20px;">
-    <!-- Your Image -->
-    <img src="~/Content/ngo.png" alt="Zero Hunger Initiative" style="max-width:100%; height:10%;">
-</div>
 
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Zero Hunger Initiative</h5>
+                    <p>Helping those in need.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control
+<!-- Main Section -->
 <section>
     <div class="container mt-5">
-        <!-- Use justify-content-center to horizontally center the content -->
         <div class="row text-center justify-content-center">
             <!-- Employee Section -->
             <div class="col-md-4">
-                <h2 class="section-header">Employees</h2>
-                <p>Become a part of our journey.</p>
-                <div class="col shadow-lg mx-auto my-2">
-                    <img src="../../Content/employee2.png" class="img-fluid img" />
+                <div class="card shadow">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Employee Image">
+                    <div class="card-body">
+                        <h5 class="section-header">Employees</h5>
+                        <p>Become a part of our journey.</p>
+                        <button class="btn btn-primary custom-button" data-bs-toggle="modal" data-bs-target="#employeeModal">
+                            Learn More
+                        </button>
+                    </div>
                 </div>
-                <!-- Use mx-auto to center the links -->
-                
-                @Html.ActionLink("Sign Up As Employee", "EmployeeRegistration", "Registration", new { area = "" }, new { @class = "btn btn-lg btn-primary w-75 /n" })
-                
-                @Html.ActionLink("Sign In As Employee", "EmployeeLogin", "Login", new { area = "" }, new { @class = "btn btn-lg btn-primary w-75" })
             </div>
 
             <!-- Restaurant Section -->
             <div class="col-md-4">
-                <h2 class="section-header">Restaurants</h2>
-                <p>Partner with us to make a difference.</p>
-                <div class="col shadow-lg mx-10 my-2">
-                    <img src="../../Content/zerohunger2.png" class="img-fluid img" />
+                <div class="card shadow">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Restaurant Image">
+                    <div class="card-body">
+                        <h5 class="section-header">Restaurants</h5>
+                        <p>Partner with us to make a difference.</p>
+                        <button class="btn btn-warning custom-button" data-bs-toggle="modal" data-bs-target="#restaurantModal">
+                            Learn More
+                        </button>
+                    </div>
                 </div>
-                <!-- Use mx-auto to center the links -->
-               
-
-                @Html.ActionLink("Sign Up As Restaurant", "RestaurantRegistration", "Registration", new { area = "" }, new { @class = "btn btn-lg btn-primary w-75" })
-
-                @Html.ActionLink("Sign In As Restaurant", "RestaurantLogin", "Login", new { area = "" }, new { @class = "btn btn-lg btn-primary w-75" })
-
-                
             </div>
         </div>
     </div>
 </section>
 
+<!-- Modals -->
+<div class="modal fade" id="employeeModal" tabindex="-1" aria-labelledby="employeeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="employeeModalLabel">Employee Opportunities</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Join us to contribute to our mission of ending hunger and building sustainable communities.
+            </div>
+            <div class="modal-footer">
+                @Html.ActionLink("Sign Up As Employee", "EmployeeRegistration", "Registration", null, new { @class = "btn btn-primary" })
+                @Html.ActionLink("Sign In As Employee", "EmployeeLogin", "Login", null, new { @class = "btn btn-secondary" })
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="restaurantModal" tabindex="-1" aria-labelledby="restaurantModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="restaurantModalLabel">Restaurant Partnership</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Partner with us to donate surplus food and reduce waste while helping the community.
+            </div>
+            <div class="modal-footer">
+                @Html.ActionLink("Sign Up As Restaurant", "RestaurantRegistration", "Registration", null, new { @class = "btn btn-warning" })
+                @Html.ActionLink("Sign In As Restaurant", "RestaurantLogin", "Login", null, new { @class = "btn btn-secondary" })
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Bootstrap JS -->
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
