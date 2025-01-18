@@ -1,4 +1,4 @@
-# ZeroHunger_ASP.NET
+# NGO_ASP.NET
 
 ## Project Overview
 ZeroHunger is a web application built with ASP.NET to assist NGOs in automating and tracking their food distribution operations. This system aims to reduce food wastage by collecting surplus food from restaurants and distributing it to underprivileged individuals and children in Dhaka city.
